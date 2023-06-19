@@ -1,0 +1,30 @@
+@import "./variables";
+
+.image__wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+
+  .last__img {
+    height: 150px;
+  }
+
+  .wrapper {
+    padding: 20px;
+    // height: 20px;
+
+    .span {
+      font-size: 40px;
+
+      color: hsl(233, 8%, 79%);
+    }
+
+    .last__h3 {
+      font-size: 20px;
+      padding-top: 20px;
+    }
+    .last__para {
+      padding-top: 20px;
+    }
+  }
+}
